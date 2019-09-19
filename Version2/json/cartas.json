@@ -1,0 +1,23 @@
+[{
+		"Numero":"1",
+		"Carta": "As de Diamantes",
+		"Cantidad" : "2"
+	},
+	{
+		"Numero":"2",
+		"Carta": "Dos de Diamantes",
+		"Cantidad" : "3"
+	}
+	,
+	{
+		"Numero":"3",
+		"Carta": "Tres de Diamantes",
+		"Cantidad" : "4"
+	}
+	,
+	{
+		"Numero":"4",
+		"Carta": "Cuatro de Corazones",
+		"Cantidad" : "6"
+	}
+]

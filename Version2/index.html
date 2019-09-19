@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Parcial Login</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/estilos.css?6">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+	<header><img class="logo" src="img/logo.png"></header>
+	<section class="container">
+	<div class="col-lg-12 col-md-12 col-sm-12">
+   			<p><h3>Inicio de Sesion</h3></p>
+   			<br>
+   			<br>
+   			<br>
+   			<div>
+   				<form id="login" name="form" method="post">
+   					<span><label>Usuario:</label></span>
+   					<input type="text" name="usuario" id="usuario" placeholder="Usuario"><br><br>
+   					<span><label>Contraseña:  </label></span>
+   					<input type="password" name="password" id="password" placeholder="Contraseña">
+   					<br>
+   					<br>
+   					<input type="button" onclick="valida();" value="Ingresar"></input>
+   				</form>
+   				<script type="text/javascript" src="js/funciones.js?3"></script>
+   			</div>
+   			<p id="error"></p>
+		</section>
+</div>
+</body>
+</html>
