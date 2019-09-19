@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Parcial Main</title>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/estilos.css?3">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+  <header class="container-fluid"><img class="logo" src="img/logo.png"><h1>Adarme's Casino's || Siempre Pierdes</h1></header>
+	<div class="container-fluid">
+   <div class="row">
+   <div class="col-sm-12 col-md-8">
+       <div class="carta col-sm-6 col-md-3" id="1">
+        <input type="image" id="image" src="img/1.png"></input>
+       </div>
+        <div class="carta col-sm-6 col-md-3" id="2">
+        <input type="image" id="image" src="img/2.png"></input>
+       </div>
+        <div class="carta col-sm-6 col-md-3" id="3">
+        <input type="image" id="image" src="img/3.png"></input>
+       </div>
+        <div class="carta col-sm-6 col-md-3" id="4">
+        <input type="image" id="image" src="img/4.png"></input>
+       </div>
+       <div class="carta col-sm-6 col-md-3" id="5">
+        <input type="image" id="image" src="img/5.png"></input>
+       </div>
+        <div class="carta col-sm-6 col-md-3" id="6">
+        <input type="image" id="image" src="img/6.png"></input>
+       </div>
+        <div class="carta col-sm-6 col-md-3" id="7">
+        <input type="image" id="image" src="img/7.png"></input>
+       </div>
+        <div class="carta col-sm-6 col-md-3" id="8">
+        <input type="image" id="image" src="img/8.png"></input>
+       </div>
+       <div class="carta col-sm-6 col-md-3" id="9">
+        <input type="image" id="image" src="img/9.png"></input>
+       </div>
+        <div class="carta col-sm-6 col-md-3" id="10">
+        <input type="image" id="image" src="img/10.png"></input>
+       </div>
+        <div class="carta col-sm-6 col-md-3" id="11">
+        <input type="image" id="image" src="img/11.png"></input>
+       </div>
+        <div class="carta col-sm-6 col-md-3" id="12">
+        <input type="image" id="image" src="img/12.png"></input>
+       </div>
+        <div class="carta col-sm-6 col-md-3" id="13">
+        <input type="image" id="image" src="img/13.png"></input>
+       </div>
+
+
+   </div>
+
+
+   <div class="col-md-4">    
+     <table class="table table-hover table-bordered">
+     <tr>
+     <thead>
+       <th>#</th>
+       <th>Carta</th>
+       <th>Cantidad</th>
+     </tr>
+     </thead>
+   <tbody id="contenido"></tbody>
+   </table>
+            <p><h3>Registro de Cartas</h3></p>
+            <br>
+            <br>
+            <br>
+            <div>
+               <form>
+                  <span><label>Número:</label></span>
+                  <input type="text" id="carta"><br>
+                  <span><label>Carta:  </label></span>
+                  <input type="text"  id="descripcion">
+                  <br>
+                  <br>
+                  <input type="button" onclick="guardar();" value="Guardar"></input>
+               </form>
+               <script type="text/javascript" src="js/cartas.js?5"></script>
+            </div>
+   </div>
+   </div>
+
+
+  </div>
+
+
+</body>
+</html>
